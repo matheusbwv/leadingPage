@@ -10,5 +10,7 @@
     <img src='img/programador.png'  width='340px'>
 </div>
 
-<p>se vai que seja um futuro <strong>TCC</strong></p> <img src='img/spotify.png' width='50px'>
+### se vai que seja um futuro <strong>TCC</strong></p> 
+
+<img src='img/spotify.png' width='50px'>
 
