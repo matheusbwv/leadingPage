@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@100;300;400;500;700;900&family=Sarala:wght@400;700&display=swap');
+/*jeito que gosto de importar as fontes que preciso*/
+*{
+     margin: 0; /*distancia da tag para o exterior */
+    padding: 0; /*distancia da tag para o conteudo*/
+    box-sizing: border-box;/*que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+    text-decoration: none; /*tirar as decorações de texto, por exemplo linhas de links*/
+}
+
+body{
+    font-size: 100%; /*regula o tamanho da fonte*/
+    background: linear-gradient(68.15deg, #000000 16.62%, #000000 85.61%); /*colocar um estilo de duas cores, mais claro e mais escuro, com as porcentagens que se regula*/
+}
+
+.cabecalho{
+    display: flex;/*começando a tag pai do flex box*/
+    flex-direction: row; /*fex box apra linha*/
+    align-items: center; /*alinhar os itens do menu para o centro*/
+    justify-content: space-around;/*distancia dos dois itens de fora , tanto a imagem quanto os itens do menu*/
+    padding: 24px;
+}
+
+.logo{
+    height: 72px;
+    border-radius: 60%;/*para fazer a imagem ficar em circulo*/
+}
+
+.navegacao{
+    display: flex;
+    gap:32px;
+}
+
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400; /*quanto maior o numero mais gordinha fica a fonte "a tal da largura"*/
+    font-size: 18px; /*tamanho da letra da fonte "a tal da altura"*/
+}
+
+.principal{
+    margin-bottom: 48px ; /*espaço de margem em baixo*/
+    border-top: 0.4px solid  #180083; /*decoração da borda do topo "linha que fica em baixo da logo"*/
+    color:#FFF2E7
+}
+
+.conteudo-p{
+    display: flex;
+    flex-direction: row;/*colocando a direção dos itens para a direita*/
+    align-items: center; /*centralizando os itens do conteudo principal*/
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-titulo{
+    font-family: 'Righteous', cursive ;/*font 1*/
+    font-weight: 400;/*larguda da fonte*/
+    font-size: 64px;/*tamanho da fonte*/
+    color: #FFF2E7;/*cor da fonte*/
+}
+
+.principal-subtitulo{
+    font-family: 'Sarala', sans-serif;/*font 2*/
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.principal-botao{
+    background-color: #180083;
+    width: 180px;
+    height: 60px;
+    border: none;/*tira a coloração padrão das bordas do botão*/
+    box-shadow: 4px 5px 4px rgb(67, 9, 103);/*serve para botar uma sombra para o botão*/
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.principal-botao:hover{
+    background-color: #000000;
+    box-shadow: 4px 5px 4px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.secundario-titulo{
+    border-top: 0.4px solid #180083;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive ; 
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #180083;/*linha de baixo*/
+}
+
+.rodape-img{
+    height: 300px; /*tamanho da imagem em pixels*/
+    display: block; /*permite que seja renderizado como bloco*/
+    margin: 0 auto; /*colocar a margem para o ponto 0 e botando o automatico ele fica no meio*/
+}
