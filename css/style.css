@@ -30,7 +30,7 @@ body{
     gap:32px;
 }
 
-.menu-item{
+. menu-item{
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400; /*quanto maior o numero mais gordinha fica a fonte "a tal da largura"*/
